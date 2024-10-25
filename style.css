@@ -1,0 +1,603 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1f2f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav-Bar ------------------------------------------------------------*/
+.navbar {
+    height: 4.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+
+.logo {
+    height: 2.55rem;
+    font-size: 2.55rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.logo img {
+    height: 2.55rem;
+    font-size: 2.55rem;
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    background-color: #ffffff;
+}
+.search button {
+    height: 2.5rem;
+    width: 2.8rem;
+    font-size: 1.2rem;
+    
+    background-color: #f0f5ff;
+    color: #abaeb3;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.search button:active {
+    background-color: #f1f2f4;
+}
+
+.search input {
+    height: 2.5rem;
+    width: 32.5rem;
+    background-color: #f0f5ff;
+    color: #abaeb3;
+    border: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+
+
+.login {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    gap: 0.65rem;
+    color: #333333;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+.login i {
+    height: 1.25rem;
+    background-color: transparent;
+    font-size: 1.25rem;
+}
+
+.login span {
+    height: 1.25rem;
+    background-color: transparent;
+    font-size: 1.25rem;
+}
+
+.login button {
+    height: 1.25rem;
+    font-size: 1.25rem;
+    border: none;
+    background-color: transparent;
+}
+
+.login:hover {
+    background-color: #2a55e5;
+    color: #ffffff;
+}
+/* Animation */
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 1s ease-in-out;
+}
+
+
+.cart {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+
+.cart i {
+    height: 1.25rem;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+.cart p {
+    height: 1.25rem;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+
+.seller {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+
+.seller i {
+    height: 1.25rem;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+.seller p {
+    height: 1.25rem;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+
+.menu {
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.menu i {
+    height: 1.25rem;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+/* Items-list -------------------------------------------------------------*/
+.item {
+    height: 7.8rem;
+    width: 98%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid #eaeaea;
+    color: #333333;
+    
+}
+
+.item1, .item2, .item3, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem 1.7rem;
+    gap: 0.7rem;
+    cursor: pointer;
+    color: #333333;
+}
+
+.item1 img, .item2 img, .item3 img, .item4 img,.item5 img,.item6 img,.item7 img,.item8 img,.item9 img,.item10 img {
+    background-color: #ffffff;
+}
+
+.item1 a, .item2 a, .item3 a, .item4 a,.item5 a,.item6 a,.item7 a,.item8 a,.item9 a,.item10 a {
+    background-color: #ffffff;
+}
+
+/* Slider --------------------------------------------------------*/
+.slider {
+    position: relative;
+    background-color: #ffffff;
+    height: 13.2rem;
+    width: 98%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider img {
+    height: 13.2rem;
+    width: 100%;
+}
+
+.leftArr, .rightArr {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40%;
+    width: 3%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftArr {
+    left: 0px;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+}
+
+.rightArr {
+    right: 0px;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
+.leftArr i, .rightArr i {
+    background-color: #ffffff;
+}
+
+
+/* Electonics item ----------------------------------------------*/
+.bestElec {
+    background-color: #ffffff;
+    height: 4rem;
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+     
+}
+
+.bestElec h3 {
+    background-color: #ffffff;
+    margin-left: 1rem;
+}
+
+.arrow {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #2a55e5;
+    border: #2a55e5 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+a {
+    all: unset;
+    display: inline-block;
+}
+
+.arrow a {
+    text-decoration: none !important;
+}
+
+.arrow i {
+    background-color: #2a55e5;
+    text-decoration: none !important;
+}
+
+.electronics {
+    height: 16rem;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ffffff;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.elec1, .elec2, .elec3, .elec4, .elec5, .elec6{
+    border: #c7c7c7 1px solid;
+    border-radius: 1%;
+    background-color: #ffffff;
+    height: 95%;
+    width: 14%;
+    top: 2px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; 
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.elec1 img, .elec2 img, .elec3 img, .elec4 img, .elec5 img, .elec6 img{
+    max-width: 100%;
+    max-height: 98%;
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    object-fit: contain;
+}
+
+.elec1 a, .elec4 a, .elec6 a{
+    margin-top: 1.8rem;
+    cursor: pointer;
+}
+.elec2 a, .elec3 a, .elec5 a {
+    cursor: pointer;
+}
+
+.elec1 p, .elec2 p, .elec3 p, .elec4 p, .elec5 p, .elec6 p {
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+/* Other Items ------------------------------------------------------------*/
+
+.bestOth {
+    background-color: #ffffff;
+    height: 4rem;
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+     
+}
+
+.bestOth h3 {
+    background-color: #ffffff;
+    margin-left: 1rem;
+}
+ 
+.other {
+    height: 16rem;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ffffff;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.oth1, .oth2, .oth3, .oth4, .oth5, .oth6{
+    border: #c7c7c7 1px solid;
+    border-radius: 1%;
+    background-color: #ffffff;
+    height: 95%;
+    width: 14%;
+    top: 2px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; 
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.oth1 img, .oth2 img, .oth3 img, .oth4 img, .oth5 img, .oth6 img{
+    max-width: 100%;
+    max-height: 98%;
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    object-fit: contain;
+}
+
+.oth2 a, .oth5 a{
+    margin-top: 1.8rem;
+    cursor: pointer;
+}
+.oth1 a, .oth4 a, .oth6 a {
+    cursor: pointer;
+}
+
+.oth3 a {
+    cursor: pointer;
+    margin-top: -2.95rem;
+}
+.oth1 p, .oth2 p, .oth3 p, .oth4 p, .oth5 p, .oth6 p {
+    font-weight: bolder;
+    background-color: #ffffff;
+}
+
+/* Footer -----------------------------------------------------------------*/
+.fotter {
+    background-color: #212121;
+    height: 28rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+/* about----------------------*/
+.about {
+    height: 10rem;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212121;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#main {
+    margin-bottom: 1rem;
+    color: #817f81;
+}
+
+/* Group ----------------------*/
+.Group {
+    height: 8rem;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212121;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Help ---------------------*/
+.Help {
+    height: 10rem;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212121;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Consumer Policy ----------*/
+.Policy {
+    height: 12rem;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212121;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Verticle Line -----------*/
+.vertLine {
+    height: 12rem;
+    width: 1px;
+    background-color: #817f81;
+    margin-top: 2.75rem;
+    padding-top: 2rem;
+}
+
+/* Mail us Developer -------*/
+.Mail {
+    height: 14rem;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212121;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#socialMain {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #817f81;
+}
+
+.socialLogo {
+    display: flex;
+    height: 2rem;
+    width: 6rem;
+    background-color: #212121;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;  
+    gap: 0.75rem;
+}
+
+#socialLogo i {
+    background-color: #212121;
+}
+
+/* Registered Office Address --*/
+
+.Address {
+    height: 16rem;
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212121;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ 

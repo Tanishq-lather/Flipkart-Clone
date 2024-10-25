@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+#pEmail {
+    display: flex;
+    width: 30rem;
+    justify-content: left;
+}
+#iEmail {
+    height: 3rem;
+    width: 30rem;
+}
+
+ 
+#pPass {
+    display: flex;
+    width: 30rem;
+    justify-content: left;
+}
+#iPass {
+    height: 3rem;
+    width: 30rem;
+}
+
+.btn button {
+    height: 2.5rem;
+    width: auto;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
