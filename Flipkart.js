@@ -1,5 +1,6 @@
 const login = document.querySelector(".login");
 const loginArr = document.querySelector(".login button i");
+const arr = document.querySelector(".bestElec .arrow")
 
 var imageSlide = new Array("01.webp","02.webp","03.webp","04.webp","05.webp");
 var imageLength = imageSlide.length;
@@ -38,3 +39,11 @@ login.addEventListener("mouseout", () => {
     loginArr.style.transform = "rotate(0deg)";
     loginArr.style.color = "#333333"
 });
+
+login.addEventListener("click", () => {
+    window.open("login/Form.html");
+})
+
+arr.addEventListener("click", () => {
+    window.open("login/Form.html");
+})
